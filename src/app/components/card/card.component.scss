@@ -1,0 +1,37 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+.card {
+    background-color: $componentbg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .titulo {
+        padding-top: 1%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .portada {
+            width: 138px;
+            height: 220px;
+            align-self: flex-start;
+            padding-left: 5%;
+        }
+        .nombreLibro{
+            align-self: center;
+        }
+    }
+    .resumen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .enlace{
+        display: flex;
+        padding: 5%;
+        align-items: center;
+        justify-content: right;
+    }
+}

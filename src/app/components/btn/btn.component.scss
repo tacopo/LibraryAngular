@@ -1,0 +1,11 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+button{
+    background-color: $secondary;
+    color: $textonsecondary;
+    border-radius: 1px;
+    &:active{
+        transform: scale(1.1);
+    }
+}

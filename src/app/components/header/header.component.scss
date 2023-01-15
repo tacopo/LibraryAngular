@@ -1,0 +1,15 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+header{
+    background-color: $primary_dk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 40px;
+        font-family: $titlesFont;
+        color: $textonprimary;
+    }
+    
+}

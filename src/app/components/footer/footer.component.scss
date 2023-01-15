@@ -1,0 +1,15 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+footer{
+    background-color: $primary_dk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4{
+        font-size: 16px;
+        font-family: $titlesFont;
+        color: $textonprimary;
+    }
+    
+}

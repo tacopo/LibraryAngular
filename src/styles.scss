@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/components/partials/colors";
+@import "app/components/partials/fonts";
+
+body{
+    background-color: $bodyBG;
+}
+
+.container{
+    padding: 5%;
+}
+.gridLibros {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
